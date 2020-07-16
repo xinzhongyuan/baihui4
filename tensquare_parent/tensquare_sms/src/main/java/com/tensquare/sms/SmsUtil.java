@@ -40,8 +40,8 @@ public class SmsUtil {
     public SendSmsResponse sendSms(String mobile,String template_code,String sign_name,String param) throws ClientException {
        /* String accessKeyId =env.getProperty("aliyun.sms.accessKeyId");
         String accessKeySecret = env.getProperty("aliyun.sms.accessKeySecret");*/
-        String accessKeyId ="LTAIFrDkmMJIWFnl";
-        String accessKeySecret = "z9iTvBDq4wOaIuhSYHbPzo7fLoy8q5";
+        String accessKeyId ="LTJIWFnl";
+        String accessKeySecret = "z9iTv7fLoy8q5";
         //可自助调整超时时间
         System.setProperty("sun.net.client.defaultConnectTimeout", "10000");
         System.setProperty("sun.net.client.defaultReadTimeout", "10000");
